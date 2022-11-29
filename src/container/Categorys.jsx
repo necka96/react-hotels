@@ -47,7 +47,7 @@ const Categorys = () => {
         </p>
       </motion.div>
       <motion.div
-        className='max-w-5xl mx-auto flex gap-2 items-center justify-center flex-wrap mt-7 '
+        className='max-w-5xl mx-auto flex gap-2 items-center justify-center flex-wrap mt-7 overflow-x-hidden'
         whileInView={{ x: [300, 0], opacity: [0, 1] }}
       >
         {["hotel", "motel", "apartment", "camping"].map((item) => (
